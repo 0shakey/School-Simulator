@@ -10,7 +10,7 @@ public interface IClubHandler
     public Club RequestCreateClub(string name, int classroomID, string description, int facultyID);
     public void RequestRemoveClub(int clubID);
 
-    public void AddStduentToClub(int studentID, int clubID);
+    public void AddStudentToClub(int studentID, int clubID);
     public void RemoveStudentFromClub(int studentID, int clubID);
 
 
